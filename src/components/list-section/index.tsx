@@ -3,22 +3,16 @@ import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
   {
-    title: `Designers`,
-    description: `Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
-    excepteur cillum consequat consectetur duis magna qui eu consequat occaecat.
-    Deserunt nisi sit.`,
+    title: `Sustainability Managers`,
+    description: `Save 10x the time by automating the collection and reporting of supplier ESG data. Focus on strategic initiatives, while we handle the details.`,
   },
   {
-    title: `Developers`,
-    description: `Pariatur consectetur laboris exercitation duis laboris.
-    Commodo duis fugiat magna fugiat et ut anim elit. Tempor aute ex qui
-    tempor tempor.`,
+    title: `Procurement Specialists`,
+    description: `Quickly gather and assess sustainability data from potential suppliers. Make informed, sustainable choices with ease.`,
   },
   {
-    title: `Product owners`,
-    description: `Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim
-    dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui aliquip.
-    Adipisicing.`,
+    title: `Manufacturers`,
+    description: `Cut the hassle—automate ESG questionnaire responses and reclaim your time. Let us handle the data, so you can focus on production.`,
   },
 ];
 
@@ -28,7 +22,7 @@ const ListSection = () => (
       <div className={tw(`mb-16 text-center`)}>
         <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Grow your revenue</h2>
         <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-          Transform your business
+          Transform your supply chain
         </p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>

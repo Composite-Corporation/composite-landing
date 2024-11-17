@@ -8,7 +8,7 @@ const FeatureSection = () => (
         <div className={tw(`mb-16 text-center`)}>
           <h4 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Features</h4>
           <p className={tw(`mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-            How we change the game
+            Revolutionizing Technology
           </p>
         </div>
         <div className={tw(`flex flex-wrap my-12`)}>
@@ -28,7 +28,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Enterprise-ready</div>
             </div>
             <p className={tw(`leading-loose text-gray-500 `)}>
-              Labore duis pariatur est exercitation laboris cupidatat amet cillum. Amet nisi ullamco.
+            Built for scale, our platform integrates seamlessly into existing processes and handles large data volumes, making it ideal for enterprises looking for comprehensive ESG solutions.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
@@ -37,7 +37,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Unlimited growth</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Elit deserunt nisi esse duis cupidatat proident sit minim mollit officia pariatur incididunt in tempor.
+            Stay ahead with a platform that scales as your business expands, adapting to new suppliers, regulations, and data complexities without limitations.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
@@ -46,7 +46,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Recommended by experts</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Velit sit tempor pariatur quis pariatur incididunt culpa dolor voluptate officia incididunt velit dolore.
+            Our solution is trusted by industry leaders, validated by partnerships with C10 Labs, and recognized by G20 TechSprint for its impact on ESG reporting and supply chain transparency.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8`)}>
@@ -55,8 +55,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Modern platform</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Laboris elit consectetur sint nisi eu mollit proident sit magna velit adipisicing consequat amet
-              reprehenderit.
+            Leverage cutting-edge AI and real-time data processing to keep your ESG reporting accurate and up-to-date, ensuring you’re always aligned with the latest standards.
             </p>
           </div>
           <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
@@ -65,8 +64,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Integrations</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia
-              consectetur.
+            Connect effortlessly with your existing CRM, ERP, and procurement tools for a unified and efficient workflow that eliminates the need for manual data entry.
             </p>
           </div>
         </div>
