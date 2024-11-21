@@ -2,12 +2,12 @@ import { tw } from 'twind';
 import Check from '@/constants/svg/check.svg';
 
 const FeatureSection = () => (
-  <section className={tw(`bg-white pb-6`)}>
+  <section className={tw(`bg-gradient-to-b from-gray-50 to-white shadow-inner`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
-      <div className={tw(`container mx-auto px-6 p-6 bg-white`)}>
+      <div className={tw(`container mx-auto px-6 p-6`)}>
         <div className={tw(`mb-16 text-center`)}>
-          <h4 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Features</h4>
-          <p className={tw(`mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
+          <h4 className={tw(`text-base text-green-600 font-semibold tracking-wide uppercase`)}>Features</h4>
+          <p className={tw(`mt-2 text-3xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
             Revolutionizing Technology
           </p>
         </div>
@@ -40,36 +40,6 @@ const FeatureSection = () => (
             Stay ahead with a platform that scales as your business expands, adapting to new suppliers, regulations, and data complexities without limitations.
             </p>
           </div>
-<<<<<<< HEAD
-          <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
-            <div className={tw(`flex items-center mb-6`)}>
-              <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Recommended by experts</div>
-            </div>
-            <p className={tw(`leading-loose text-gray-500`)}>
-            Our solution is trusted by industry leaders, validated by partnerships with C10 Labs, and recognized by G20 TechSprint for its impact on ESG reporting and supply chain transparency.
-            </p>
-          </div>
-          <div className={tw(`w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8`)}>
-            <div className={tw(`flex items-center mb-6`)}>
-              <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Modern platform</div>
-            </div>
-            <p className={tw(`leading-loose text-gray-500`)}>
-            Leverage cutting-edge AI and real-time data processing to keep your ESG reporting accurate and up-to-date, ensuring you’re always aligned with the latest standards.
-            </p>
-          </div>
-          <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
-            <div className={tw(`flex items-center mb-6`)}>
-              <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Integrations</div>
-            </div>
-            <p className={tw(`leading-loose text-gray-500`)}>
-            Connect effortlessly with your existing CRM, ERP, and procurement tools for a unified and efficient workflow that eliminates the need for manual data entry.
-            </p>
-          </div>
-=======
->>>>>>> c23102d (feat: test)
         </div>
       </div>
     </div>

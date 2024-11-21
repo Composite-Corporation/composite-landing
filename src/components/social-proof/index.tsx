@@ -7,9 +7,9 @@ const socialProofs = [
     name: `Lucy Moore`,
     company: `Scientific Laboratory Supplied Ltd.`,
     image: `/images/lucy.jpeg`,
-    text: `"Composite.ai's platform has been a game changer for us. 
+    text: `Composite.ai's platform has been a game changer for us. 
     The level of customization and ease of use has significantly 
-    improved how we manage and report on ESG data across our supply chain."`,
+    improved how we manage and report on ESG data across our supply chain.`,
   },
 ];
 
@@ -31,11 +31,13 @@ const SocialProof = () => {
   return (
     <div className={tw(`container mx-auto`)}>
       <div className={tw(`max-w-7xl mx-auto`)}>
+        <section>
           <figure>
             <div className={tw(`relative bg-white`)}>
-              <div className={tw(`pt-5 px-4 mx-40 md:px-0`)}>
-                <p className={tw(`text-gray-600 text-base pb-6`)}>{socialProofs[currentIndex].text}</p>
-                <div className={tw(`flex items-center justify-between`)}>
+              <Quote className={tw(`w-16 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-300`)} />
+              <div className={tw(`pt-20 px-6 md:px-0 text-center`)}>
+                <p className={tw(`text-gray-600 text-xl pb-6`)}>{socialProofs[currentIndex].text}</p>
+                <div className={tw(`pt-10 flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
                     <div className={tw(`h-12 w-12`)}>
                       <img
@@ -53,7 +55,7 @@ const SocialProof = () => {
                       </span>
                     </p>
                   </div>
-                  <div className={tw(`cursor-pointer flex pb-12`)}>
+                  {/* <div className={tw(`cursor-pointer flex pb-12`)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={44}
@@ -84,11 +86,12 @@ const SocialProof = () => {
                       <path stroke="none" d="M0 0h24v24H0z" />
                       <polyline points="9 6 15 12 9 18" />
                     </svg>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </figure>
+        </section>
       </div>
     </div>
   );

@@ -8,7 +8,8 @@ const headerStyle = css`
 `;
 
 const Header = () => (
-    <div className={tw(`max-w-4xl mx-auto px-14 sm:px-6 lg:px-8`)}>
+  <section>
+    <div className={tw(`max-w-4xl mx-auto py-12 px-14 sm:px-6 lg:px-8`)}>
       <h1 className={tw(`font-sans font-bold text-3xl md:text4xl lg:text-5xl text-center leading-snug text-gray-800`)}>
         Scope 3 reporting, made easy
       </h1>
@@ -33,6 +34,7 @@ const Header = () => (
         <Button>Contact us</Button>
       </div> */}
     </div>
+  </section>
 );
 
 export default Header;

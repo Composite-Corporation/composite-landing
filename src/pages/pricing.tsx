@@ -8,11 +8,11 @@ import SocialProof from '@/components/social-proof';
 import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
 
-export default function AboutUs() {
+export default function Pricing() {
   return (
     <Page>
       <main>
-        <ListSection />
+        <PricingTable />
       </main>
     </Page>
   );
