@@ -4,22 +4,12 @@ import Quote from '@/constants/svg/quote.svg';
 
 const socialProofs = [
   {
-    name: `John Doe`,
-    company: `Alphabet Inc.`,
-    image: `/images/social-1.webp`,
-    text: `Commodo Lorem consequat ea consectetur pariatur proident excepteur.
-    Pariatur eiusmod minim minim ipsum tempor aute excepteur minim eu nisi laboris.
-    Duis sunt labore eu eu cupidatat labore commodo id aliquip.`,
-  },
-  {
-    name: `Jack Doe`,
-    company: `Amazon.com, Inc.`,
-    image: `/images/social-2.webp`,
-    text: `Anim labore ut amet cupidatat pariatur pariatur labore ad est.
-    Fugiat eiusmod dolore aliquip aute duis esse excepteur amet.
-    Sit cupidatat ipsum culpa nisi esse ipsum culpa in consectetur.
-    Enim incididunt do sunt ex do. Proident duis nulla minim sunt irure est
-    magna nostrud Lorem consectetur irure.`,
+    name: `Lucy Moore`,
+    company: `Scientific Laboratory Supplied Ltd.`,
+    image: `/images/lucy.jpeg`,
+    text: `"Composite.ai's platform has been a game changer for us. 
+    The level of customization and ease of use has significantly 
+    improved how we manage and report on ESG data across our supply chain."`,
   },
 ];
 
@@ -39,13 +29,11 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto my-8`)}>
+    <div className={tw(`container mx-auto`)}>
       <div className={tw(`max-w-7xl mx-auto`)}>
-        <section>
           <figure>
             <div className={tw(`relative bg-white`)}>
-              <Quote className={tw(`w-16 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-300`)} />
-              <div className={tw(`pt-20 px-6 md:px-0`)}>
+              <div className={tw(`pt-5 px-4 mx-40 md:px-0`)}>
                 <p className={tw(`text-gray-600 text-base pb-6`)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
@@ -101,7 +89,6 @@ const SocialProof = () => {
               </div>
             </div>
           </figure>
-        </section>
       </div>
     </div>
   );

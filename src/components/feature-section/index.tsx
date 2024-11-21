@@ -40,6 +40,7 @@ const FeatureSection = () => (
             Stay ahead with a platform that scales as your business expands, adapting to new suppliers, regulations, and data complexities without limitations.
             </p>
           </div>
+<<<<<<< HEAD
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
@@ -67,6 +68,8 @@ const FeatureSection = () => (
             Connect effortlessly with your existing CRM, ERP, and procurement tools for a unified and efficient workflow that eliminates the need for manual data entry.
             </p>
           </div>
+=======
+>>>>>>> c23102d (feat: test)
         </div>
       </div>
     </div>
