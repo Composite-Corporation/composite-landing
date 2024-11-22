@@ -44,10 +44,10 @@ const FeatureSection = () => (
           <h4 className={tw(`text-base text-green-600 font-semibold tracking-wide uppercase`)}>Recognized by</h4>
           <div className={tw(`mt-6 flex justify-center space-x-4`)}>
             <a href="https://www.c10labs.com/companies/c2-summer-24" target="_blank" rel="noopener noreferrer">
-              <img src="images/c10.jpeg" alt="C10 Labs" className={tw(`h-40`)} />
+              <img src="images/c10.jpeg" alt="C10 Labs" className={tw(`h-60`)} />
             </a>
             <a href="https://www.bis.org/hub/2024_g20_techsprint.htm" target="_blank" rel="noopener noreferrer">
-              <img src="images/g20.jpg" alt="G20 TechSprint 2024" className={tw(`h-40`)} />
+              <img src="images/g20.jpg" alt="G20 TechSprint 2024" className={tw(`h-60`)} />
             </a>
           </div>
         </div>
