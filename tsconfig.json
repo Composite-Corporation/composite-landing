@@ -19,5 +19,5 @@
     }
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["video.d.ts", "video.d.ts", "video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
