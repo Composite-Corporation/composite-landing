@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import Particles from 'react-particles-js';
+import Page from '@/components/page';
 
 const ParticleBg = () => (
   <Particles
@@ -20,7 +21,7 @@ const ParticleBg = () => (
   />
 );
 
-const CaseStudyPage = () => (
+const CaseStudy = () => (
   <div>
     {/* Hero Section */}
     <section>
@@ -32,7 +33,7 @@ const CaseStudyPage = () => (
           <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>
             Proven Success with Scientific Laboratory Supplies (SLS)
           </h1>
-          <p className={tw(`text-gray-400 text-center text-xl mt-8 leading-relaxed`)}>
+          <p className={tw(`text-gray-400 text-center text-xl mt-16 leading-relaxed`)}>
             See how Composite.ai empowered SLS to streamline ESG data collection, enhance reporting accuracy, 
             and achieve their sustainability goals across a vast supplier network.
           </p>
@@ -40,7 +41,7 @@ const CaseStudyPage = () => (
             <img
               src={`/images/sls.png`}
               alt={`Case Study Image`}
-              className={tw(`py-4 object-cover overflow-hidden rounded`)} // Adjusted spacing
+              className={tw(`py-12 object-cover overflow-hidden rounded-lg`)} // Adjusted spacing
               width={400}
               height={200}
             />
@@ -152,4 +153,12 @@ const CaseStudyPage = () => (
   </div>
 );
 
-export default CaseStudyPage;
+export default function CaseStudies() {
+  return (
+    <Page>
+      <main>
+        <CaseStudy />
+      </main>
+    </Page>
+  );
+}
