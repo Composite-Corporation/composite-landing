@@ -8,18 +8,17 @@ const FeatureSection = () => (
         <div className={tw(`mb-16 text-center`)}>
           <h4 className={tw(`text-base text-green-600 font-semibold tracking-wide uppercase`)}>Features</h4>
           <p className={tw(`mt-2 text-3xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
-            Revolutionizing Technology
+            Simplify ESG Supplier Management
           </p>
         </div>
         <div className={tw(`flex flex-wrap my-12`)}>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Increase sales</div>
+              <div className={tw(`ml-4 text-xl`)}>Save Time </div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Consectetur pariatur irure exercitation sit amet id consectetur consecteturmagna et Lorem labore qui
-              velit.
+            Automate supplier data analysis and cut manual work by 80%. Focus on strategy, not spreadsheets.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
@@ -28,16 +27,16 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Enterprise-ready</div>
             </div>
             <p className={tw(`leading-loose text-gray-500 `)}>
-            Built for scale, our platform integrates seamlessly into existing processes and handles large data volumes, making it ideal for enterprises looking for comprehensive ESG solutions.
+            Handle thousands of suppliers and data points effortlessly, no matter your company’s size.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
             <div className="flex items-center mb-6">
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Unlimited growth</div>
+              <div className={tw(`ml-4 text-xl`)}>Future-Proof</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-            Stay ahead with a platform that scales as your business expands, adapting to new suppliers, regulations, and data complexities without limitations.
+            Stay compliant as regulations change and your supply chain grows.
             </p>
           </div>
         </div>
