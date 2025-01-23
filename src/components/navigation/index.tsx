@@ -15,16 +15,12 @@ type Link = {
 
 const links = [
   {
+    label: `Home`,
+    href: `/`,
+  },
+  {
     label: `Team`,
     href: `/team`,
-  },
-  {
-    label: `Case Studies`,
-    href: `/case-studies`,
-  },
-  {
-    label: `Pricing`,
-    href: `/pricing`,
   },
 ];
 

@@ -8,9 +8,9 @@ interface IButton {
 }
 
 const Button = ({ primary, modifier, children, href, ...rest }: IButton) => {
-  const baseStyle = `font-sans font-medium py-2 px-4 border rounded`;
+  const baseStyle = `font-sans font-medium py-2 px-4 border rounded-lg`;
   const styles = primary
-    ? `bg-green-400 text-white border-green-300 hover:bg-green-600`
+    ? `bg-green text-white hover:bg-green-dark`
     : `bg-white text-gray-600 border-gray-300 hover:bg-gray-100`;
 
   if (href) {

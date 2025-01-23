@@ -1,7 +1,7 @@
 import { tw } from 'twind';
 import Button from '@/components/button';
 
-const productLinks = [`Request a Demo`, `Case Studies`, `Pricing`];
+const productLinks = [`Request a Demo`];
 const aboutLinks = [`Team`];
 const resourceLinks = [
   `Get started`,
@@ -20,7 +20,7 @@ const Footer = () => (
     <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
       <div className={tw(`mb-14 flex flex-col items-start w-full lg:w-1/2`)}>
         <img className={tw(`h-16 w-auto mb-2`)} src="logo-full.png" alt="logo" />
-        <p>Empowering your sustainability journey, at scale.</p>
+        <p>@ 2025 - Composite Corporation</p>
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>

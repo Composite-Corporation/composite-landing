@@ -5,9 +5,9 @@ const foundersList = [
     name: 'Mary Catherine Hanafee LaPlante',
     title: 'CEO & Co-Founder',
     description: `Mary Catherine, with a background in Economics from Harvard and experience 
-    at the EPA and Environmental Defense Fund, drives Composite.ai\'s development of 
-    innovative ESG solutions`,
-    image: "images/mc-headshot.png" ,
+    at the EPA and Environmental Defense Fund, ensures reliable document processing on our platform.`,
+    image: "images/mc-headshot.png",
+    link: "https://www.linkedin.com/in/mary-catherine-mc-hanafee-laplante-32780318a/",
   },
   {
     name: 'Leon Chen',
@@ -15,7 +15,8 @@ const foundersList = [
     description: `Leon studied Computer Science at Harvard and brings engineering expertise 
     from top companies like Google, SpaceX, and Doordash to drive the technical innovation 
     behind our platform.`,
-    image: "images/leon-headshot.png" 
+    image: "images/leon-headshot.png" ,
+    link: "https://www.linkedin.com/in/leonrchen/",
   },
 ];
 
@@ -36,7 +37,12 @@ const ListSection = () => (
                 className={tw(`w-64 h-64 rounded-full object-cover`)} 
               />
               <div className={tw(`px-4 text-center`)}>
-                <h2 className={tw(`my-4 text-xl font-semibold`)}>{item.name}</h2>
+                <div className="flex items-center justify-center mb-6">
+                  <h2 className={tw(`my-4 text-xl font-semibold`)}>{item.name}</h2>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <img className={tw(`h-6 w-6 ml-2`)} src="images/linkedin.svg.webp" alt="LinkedIn" />
+                  </a>
+                </div>
                 <h3 className={tw(`my-4 text-xl font-semibold`)}>{item.title}</h3>
                 <p className={tw(`text-gray-500 leading-loose`)}>{item.description}</p>
               </div>
